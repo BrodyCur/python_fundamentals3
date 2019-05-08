@@ -142,3 +142,51 @@ countries  = [
 
 # Exercise 7
 
+skate_list = []
+
+def skate_msg():
+    msg = 0
+    while msg < 20:
+        print("I will not skateboard in the halls")
+        msg += 1
+        skate_list.append("I will not skateboard in the halls")
+
+skate_msg()
+print(skate_list)
+
+numbers = list(range(0, 51))
+print(numbers)
+
+def adder():
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+
+adder()
+
+triple_numbers = []
+for num in range(0, 51):
+    triple_numbers.append(num)
+    triple_numbers.append(num)
+    triple_numbers.append(num)
+
+print(triple_numbers)
+
+not_islands = []
+for i in countries:
+    if i['island'] == False:
+        not_islands.append(i)
+
+print(not_islands)
+
+# Exercise 8
+
+expenses1 = [250, 7.95, 30.95, 16.50]
+expenses2 = [543, 6.84, 20.65, 467, 4, 35.74]
+
+def expense_calc(i):
+    return sum(i)
+
+print(expense_calc(expenses1))
+print(expense_calc(expenses2))
