@@ -20,9 +20,9 @@ fav_movies = {
 }
 
 cities = {
-    'Toronto': '2.8 million',
-    'Tokyo': '9.2 million',
-    'Shanghai': '24 million'
+    'Toronto': 2.8,
+    'Tokyo': 9.2,
+    'Shanghai': 24
 }
 
 family_ages = {
@@ -49,7 +49,7 @@ print(fav_movies['Alien'])
 
 print(fav_colours[-1])
 
-cities['Beijing'] = '18.6 million'
+cities['Beijing'] = 18.6
 
 coin_flip.reverse()
 
@@ -85,5 +85,26 @@ coin_flip.count('heads')
 
 music_artists.pop(2)
 
-cities['Toronto'] = '5.7 billion'
+cities['Toronto'] = 5.7
 
+# Exercise 5
+
+print(sum(cities.values()))
+
+for name, age in family_ages.items():
+    if age >= 35:
+        print(f"{name} is old.")
+    else:
+        print(f"{name} is young.")
+
+print(fav_colours[-2:])
+
+for index, age in enumerate(ages):
+    ages[index] = age + 1
+
+print(ages)
+
+fav_colours.append('lime')
+fav_colours.append('aqua')
+
+# Exercise 6
