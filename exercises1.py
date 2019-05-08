@@ -108,3 +108,37 @@ fav_colours.append('lime')
 fav_colours.append('aqua')
 
 # Exercise 6
+
+movie_list = {
+    '1999': ['The Matrix', 'Star Wars: The Phantom Menace', 'The Mummy'],
+    '2009': ['Avatar', 'Star Trek', 'District 9'],
+    '2019': ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Ep 9']
+}
+
+phone = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    ['*', 0, '#']
+]
+
+countries  = [
+    {
+        'name': 'Canada',
+        'continent': 'North America',
+        'island': False
+    },
+    {
+        'name': 'Japan',
+        'continent': 'Asian',
+        'island': True
+    },
+    {
+        'name': 'Germany',
+        'continent': 'Europe',
+        'island': False
+    }
+]
+
+# Exercise 7
+
