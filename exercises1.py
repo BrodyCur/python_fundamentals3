@@ -5,12 +5,38 @@ music_artists = ['Owen Pallet', '2mello', 'Macross 1988']
 
 words = {
     'blossom': "to flourish; develop",
+
     'heaven': "the abode of God, the angels, and the spirits of the righteous after death; the place or state of existence of the blessed after the mortal life",
+
     'proud': "feeling pleasure or satisfaction over something regarded as highly honorable or creditable to oneself"
 }
 
-print(fav_colours)
-print(ages)
+fav_movies = {
+    'The Thing': 1982,
+    'Alien': 1979,
+    'They Live!': 1988
+}
+
+cities = {
+    'Toronto': '2.8 million',
+    'Tokyo': '9.2 million',
+    'Shanghai': '24 million'
+}
+
+family_ages = {
+    'Jessica': 35,
+    'Jennifer': 34,
+    'Savanah': 14,
+    'Gina': 61,
+    'Brian': 59
+}
+
+ages.append(0)
+
 print(coin_flip)
-print(music_artists)
-print(words)
+print(fav_colours[0])
+print(sorted(ages))
+print(fav_movies['Alien'])
+
+# print(music_artists)
+# print(words)
