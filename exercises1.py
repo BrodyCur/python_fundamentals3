@@ -34,9 +34,23 @@ family_ages = {
 ages.append(0)
 
 print(coin_flip)
+
 print(fav_colours[0])
+
 print(sorted(ages))
+
 print(fav_movies['Alien'])
 
-# print(music_artists)
-# print(words)
+print(fav_colours[-1])
+
+cities['Beijing'] = '18.6 million'
+
+coin_flip.reverse()
+
+print(coin_flip)
+
+print(cities['Beijing'])
+
+for artist in music_artists:
+    print(f"I think {artist} is great.")
+
