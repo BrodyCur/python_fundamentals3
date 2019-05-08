@@ -1,3 +1,5 @@
+# Exercise 0
+
 fav_colours = ['orange', 'purple', 'blue', 'pink']
 ages = [35, 34, 27, 22]
 coin_flip = ['tails', 'heads', 'tails', 'tails', 'tails']
@@ -31,6 +33,8 @@ family_ages = {
     'Brian': 59
 }
 
+# Exercise 1
+
 ages.append(0)
 
 print(coin_flip)
@@ -40,6 +44,8 @@ print(fav_colours[0])
 print(sorted(ages))
 
 print(fav_movies['Alien'])
+
+# Exercise 2
 
 print(fav_colours[-1])
 
@@ -53,4 +59,31 @@ print(cities['Beijing'])
 
 for artist in music_artists:
     print(f"I think {artist} is great.")
+
+# Exercise 3
+
+print(music_artists[0:2])
+
+for movie, date in fav_movies.items():
+    print(f"{movie} came out in {date}.")
+
+print(sorted(family_ages.values(), reverse=True))
+
+fav_movies['Beauty and the Beast'] = [1991, 2017]
+
+print(fav_movies)
+
+# Exercise 4
+
+for age in ages:
+    if age > 30:
+        print(age)
+
+print(max(ages))
+
+coin_flip.count('heads')
+
+music_artists.pop(2)
+
+cities['Toronto'] = '5.7 billion'
 
